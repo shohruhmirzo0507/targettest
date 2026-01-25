@@ -1,0 +1,82 @@
+/* Home page */
+
+.home__main {
+  width: 80%;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.home__content {
+  width: 50%;
+  height: auto;
+  color: #313e51;
+}
+.home__title {
+  margin: 20px 0px;
+}
+
+.home__list {
+  width: 50%;
+  height: 350px;
+  overflow: auto;
+}
+
+.home__content span {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.home__content p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.home__content button {
+  width: 500px;
+  height: 50px;
+  background-color: #1d2a4a;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 40px 0;
+  padding-left: 10px;
+}
+
+.home__content button:hover {
+  opacity: 0.9;
+}
+.menu__lists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.menu__lists a {
+  width: 80%;
+  height: 60px;
+  background-color: #1d2a4a;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.menu__lists a:hover {
+  background-color: #1d2a4ae1;
+}
