@@ -1,0 +1,46 @@
+nav {
+  width: 80%;
+  height: 90px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo__brand {
+  height: 90px;
+}
+.nav__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.nav__left h1 {
+  font-size: 35px;
+  color: #1d2a4a;
+}
+
+@media screen and (max-width: 1250px) {
+  nav {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  nav {
+    width: 95%;
+  }
+  .logo__brand {
+    height: 70px;
+  }
+  .nav__left h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .logo__brand {
+    height: 60px;
+  }
+  .nav__left h1 {
+    font-size: 25px;
+  }
+}

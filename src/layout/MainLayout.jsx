@@ -5,7 +5,7 @@ import Navbar from "../components/navbar/Navbar";
 function MainLayout() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <main>
         <Outlet />
       </main>
