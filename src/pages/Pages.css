@@ -80,3 +80,93 @@
 .menu__lists a:hover {
   background-color: #1d2a4ae1;
 }
+
+/* ErrorPAge */
+
+.errorpage {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+.errorpage img {
+  width: 60%;
+  border-radius: 20px;
+}
+.errorpage h3 {
+  margin: 20px auto;
+  color: #313e51;
+}
+.errorpage a {
+  color: #1d2a4a;
+}
+
+@media screen and (max-width: 1250px) {
+  .home__main {
+    width: 95%;
+  }
+  .home__content span {
+    font-size: 55px;
+  }
+
+  .home__content p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .home__main {
+    width: 95%;
+  }
+  .home__content span {
+    font-size: 50px;
+  }
+
+  .home__content p {
+    font-size: 15px;
+  }
+  .home__content button {
+    width: 80%;
+    height: 50px;
+    font-size: 15px;
+  }
+    .errorpage{
+    width: 95%;
+  }
+   .errorpage img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .home__main {
+    flex-wrap: wrap;
+  }
+  .home__content {
+    width: 100%;
+    text-align: center;
+  }
+  .home__list {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .home__content button {
+    width: 60%;
+    margin: 10px auto;
+  }
+ 
+}
+@media screen and (max-width: 500px) {
+  .home__content span {
+    font-size: 40px;
+  }
+
+  .home__content p {
+    font-size: 13px;
+  }
+  .home__content button {
+    width: 70%;
+    height: 40px;
+    margin: 10px auto;
+    font-size: 11px;
+    padding: 0px 10px;
+  }
+}

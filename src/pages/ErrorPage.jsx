@@ -1,30 +1,39 @@
-import React from 'react'
-import { Link, useRouteError } from 'react-router-dom'
+import React from "react";
+import { Link, useRouteError } from "react-router-dom";
+import gifFound from "../../public/notFound.gif";
+import "./Pages.css";
 
 function ErrorPage() {
-  const error = useRouteError()
+  const error = useRouteError();
   console.log(error);
   if (error.status == 404) {
-    return <div className='errorpage'>
-      <div>
-        <h3>
-          404 Error: Page not found . But don't worry, our developers are on a treause hunt to recover it.
-        </h3>
-        <Link to="/">Go to Home</Link>
+    return (
+      <div className="errorpage">
+        <div>
+          <img src={gifFound} alt="" />
+          <h3>
+            404 – Sahifa topilmadi Kechirasiz, siz qidirayotgan sahifa mavjud{" "}
+            <br />
+            emas yoki o‘chirilgan bo‘lishi mumkin. Iltimos, menyu orqali bosh
+            sahifaga qayting.
+          </h3>
+          <Link to="/">Asosiy Menyu</Link>
+        </div>
       </div>
-    </div>
+    );
   }
 
   return (
-    <div className='errorpage'>
+    <div className="errorpage">
       <div>
         <h3>
-          Something were :
+          Xatolik yuz berdi Kechirasiz, sahifani yuklashda xatolik yuz berdi.
+          Iltimos, sahifani yangilang yoki birozdan so‘ng qayta urinib ko‘ring.
         </h3>
         <Link to="/">Go to Home</Link>
       </div>
     </div>
-  )
+  );
 }
 
-export default ErrorPage
+export default ErrorPage;
