@@ -46,4 +46,8 @@
     .review__main {
   font-size: 17px;
 }
+.review__item{
+    width: 100%;
+    margin: 20px auto;
+}
 }
