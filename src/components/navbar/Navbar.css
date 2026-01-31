@@ -15,6 +15,9 @@ nav {
   justify-content: center;
   gap: 5px;
 }
+.nav__left a{
+  text-decoration: none;
+}
 .nav__left h1 {
   font-size: 35px;
   color: #1d2a4a;
